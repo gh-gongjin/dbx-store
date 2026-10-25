@@ -1,0 +1,47 @@
+{
+  "id": "com.gongjin.doclite",
+  "name": "DocLite",
+  "description": "Convert Word, PDF, PowerPoint, Excel, CSV, EPUB and more into clean Markdown and structured Document Model JSON, with optional cloud OCR for scanned PDFs.",
+  "publisher": "gongjin",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/gh-gongjin/dbx-plugin-doclite/v0.1.9/assets/plugin.svg",
+  "tags": [
+    "documents",
+    "markdown",
+    "pdf",
+    "ocr",
+    "conversion",
+    "word"
+  ],
+  "permissions": [
+    "host.events",
+    "host.binary",
+    "host.storage"
+  ],
+  "source": "https://github.com/gh-gongjin/dbx-plugin-doclite/tree/v0.1.9",
+  "homepage": "https://github.com/gh-gongjin/dbx-plugin-doclite",
+  "license": "MIT",
+  "latestVersion": "0.1.9",
+  "versions": [
+    {
+      "version": "0.1.9",
+      "releasedAt": "2026-10-25T01:42:04.931Z",
+      "releaseNotes": "权限申报修复（商店审核）：补充申报 host.binary，用于打开输出目录与内置目录选择器这两处固定程序的子进程调用；ZIP 条目权限位改为 0644/0755，解包无需再 chmod；内置运行时固定为官方 Node.js v24.21.0 win-x64 发行版并在 versions.json 记录校验值。功能同 0.1.8：本地转换 Word / PDF / PPT / Excel / CSV / EPUB 等 24 种格式为 Markdown 与结构化 JSON；扫描版 PDF 可选接入 MinerU 官方 API 或百度 OCR，失败可保留原始文件直接重试。",
+      "artifacts": [
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/com.gongjin.doclite/0.1.9/com.gongjin.doclite-0.1.9-windows-x64.dbxp",
+          "sha256": "f579bbcce7a667d334cbbe4911f91e89e0d328ffa52fe75f12def3c8b089b841",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 46287283
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "DocLite 文档转换",
+      "description": "把 Word、PDF、PPT、Excel、CSV、EPUB 等文档转换为干净的 Markdown 与结构化 JSON；扫描版 PDF 可选接入 MinerU 或百度 OCR。"
+    }
+  }
+}
