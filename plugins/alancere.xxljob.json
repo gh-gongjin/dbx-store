@@ -15,10 +15,10 @@
     "host.events",
     "host.workbench"
   ],
-  "source": "https://github.com/Alancere/xxl-job-dbx-plugin/tree/v1.0.4",
+  "source": "https://github.com/Alancere/xxl-job-dbx-plugin/tree/v1.1.0",
   "homepage": "https://github.com/Alancere/xxl-job-dbx-plugin",
   "license": "Apache-2.0",
-  "latestVersion": "1.0.4",
+  "latestVersion": "1.1.0",
   "versions": [
     {
       "version": "1.0.4",
@@ -59,6 +59,48 @@
           "sha256": "4a7f61fa87f3d1de3028de765c5bb6f9192679e3ff57f49b7506b8b580fbcff0",
           "signingKeyId": "dbx-store-release-2026",
           "size": 2937663
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "releasedAt": "2026-10-24T17:28:43.780Z",
+      "releaseNotes": "Adds a Cron quick builder (unit tabs, every/range/interval/specify modes, next-run preview) to the job editor, and includes the 1.0.5 fixes: job stop toggle, executor-unreachable log hint, report refresh window, LICENSE in packages.",
+      "artifacts": [
+        {
+          "target": "darwin-arm64",
+          "url": "https://dl.dbxio.com/plugins/alancere.xxljob/1.1.0/alancere.xxljob-1.1.0-darwin-arm64.dbxp",
+          "sha256": "74c8176b260bf4b377cda4888c8669fb1a008e69089490afd53e25dc0a57126f",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 2958235
+        },
+        {
+          "target": "darwin-x64",
+          "url": "https://dl.dbxio.com/plugins/alancere.xxljob/1.1.0/alancere.xxljob-1.1.0-darwin-x64.dbxp",
+          "sha256": "2ce7a7850ce990b72299c33c982483bfcf9420f67587351e582044e437a3be20",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 3199920
+        },
+        {
+          "target": "linux-arm64",
+          "url": "https://dl.dbxio.com/plugins/alancere.xxljob/1.1.0/alancere.xxljob-1.1.0-linux-arm64.dbxp",
+          "sha256": "7238fa79d4db945852a9a54a5f5a7114d412dcca84ae8a4d3829b6cc75f6db1b",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 2848961
+        },
+        {
+          "target": "linux-x64",
+          "url": "https://dl.dbxio.com/plugins/alancere.xxljob/1.1.0/alancere.xxljob-1.1.0-linux-x64.dbxp",
+          "sha256": "9c6e78499a30bbd4295d6b73d542c99c54c9af94be861077210a091a52eb71e5",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 3145452
+        },
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/alancere.xxljob/1.1.0/alancere.xxljob-1.1.0-windows-x64.dbxp",
+          "sha256": "2c7ba97046145ba1a753317885850921739db2f744ab58e8b0cb2afa4cc4d10d",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 3229900
         }
       ]
     }

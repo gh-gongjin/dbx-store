@@ -4,7 +4,7 @@
   "description": "A quiet online parlour for Chinese chess and Gomoku, with rooms, spectators, and match clocks.",
   "publisher": "lieng618",
   "verified": false,
-  "icon": "https://raw.githubusercontent.com/lieng618/dbx-mini-games/v0.4.1/assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/lieng618/dbx-mini-games/v0.4.2/assets/plugin.svg",
   "tags": [
     "game",
     "chess",
@@ -15,10 +15,10 @@
   "permissions": [
     "host.network:https://1.92.64.227"
   ],
-  "source": "https://github.com/lieng618/dbx-mini-games/tree/v0.4.1",
+  "source": "https://github.com/lieng618/dbx-mini-games/tree/v0.4.2",
   "homepage": "https://github.com/lieng618/dbx-mini-games",
   "license": "Apache-2.0",
-  "latestVersion": "0.4.1",
+  "latestVersion": "0.4.2",
   "versions": [
     {
       "version": "0.3.1",
@@ -45,6 +45,20 @@
           "sha256": "6605f2c72662d9839dc506a4306af38326859509c6db196fb3b81d3f49ac6f19",
           "signingKeyId": "dbx-store-release-2026",
           "size": 260763
+        }
+      ]
+    },
+    {
+      "version": "0.4.2",
+      "releasedAt": "2026-10-24T17:28:13.937Z",
+      "releaseNotes": "本次更新加入房间计分与确认换座，新增象棋关键棋子碎裂、五子棋动态特效和局内表情互动，并优化对局提示、音效和移动端布局。",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/io.github.lieng618.dbx-mini-games/0.4.2/io.github.lieng618.dbx-mini-games-0.4.2-universal.dbxp",
+          "sha256": "768c64300a0cc9000e2386b82a2679afcf150b9e3d079524c0a382d0151f8368",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 272481
         }
       ]
     }
